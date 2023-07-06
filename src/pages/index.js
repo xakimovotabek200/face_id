@@ -1,10 +1,8 @@
-import Footer from "@/components/Footer/Footer";
-import Navigation from "@/components/Navbar/Navbar";
+import { AuthenticationTitle } from "./account/Account";
 
 export default function Home() {
   return <>
-    <Navigation />
-    <Footer />
+    <AuthenticationTitle />
   </>
 
 }
